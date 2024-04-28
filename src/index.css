@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: calc(1em + 0.5rem);
+  scroll-behavior: smooth;
+  color: white;
+  font-family: 'Satoshi', sans-serif;
+  font-family: 'Chillax', sans-serif;
+}
+
+.grids{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 1em;
+}
+
+
+
+.clamps{
+  font-size: clamp(0.9rem,2vw,10rem);
+}
+
+.clamps2{
+    font-size: clamp(0.8rem , 1.5vw , 5rem);
+}
+
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
