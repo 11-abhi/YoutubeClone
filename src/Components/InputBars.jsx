@@ -38,7 +38,7 @@ const InputBars = () => {
           />
                     {inpval.length > 0 && <img onClick={handleCut} src={CloseIcon} alt="closeicon" />}
         </div>
-        <button  type='submit' className="rounded-e-full flex items-center justify-center  bg-slate-950 h-[100%] border-l-2 border-slate-950 ">
+        <button  type='submit' className="rounded-e-full flex items-center justify-center  bg-black h-[100%] border-l-2 border-slate-950">
                 <img src={SearchIcon} alt="" />
         </button>
       </form>    
